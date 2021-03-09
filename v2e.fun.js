@@ -1,4 +1,4 @@
-const $ = new Env('v2e.fun')
+const $ = new Env('豆豆豆奶')
 $.VAL_cookies = $.getdata('elfive_cookie_v2efun')
 
 !(async () => {
@@ -10,14 +10,14 @@ $.VAL_cookies = $.getdata('elfive_cookie_v2efun')
 
 function web() {
   return new Promise((resove) => {
-    const url = { url: 'https://v2e.fun/user/checkin', headers: {} }
+    const url = { url: 'https://aaaa.gay/user/checkin', headers: {} }
     url.headers['accept'] = 'application/json, text/javascript, */*; q=0.01'
     url.headers['accept-encoding'] = 'gzip, deflate, br'
     url.headers['accept-language'] = 'zh-CN,zh;q=0.9'
     url.headers['content-length'] = '0'
     url.headers['cookie'] = $.VAL_cookies
-    url.headers['origin'] = 'https://v2e.fun'
-    url.headers['referer'] = 'https://v2e.fun/user/panel'
+    url.headers['origin'] = 'https://aaaa.gay'
+    url.headers['referer'] = 'https://aaaa.gay/user/panel'
     url.headers['sec-fetch-dest'] = 'empty'
     url.headers['sec-fetch-mode'] = 'cors'
     url.headers['sec-fetch-site'] = 'same-origin'

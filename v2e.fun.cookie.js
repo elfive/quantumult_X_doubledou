@@ -1,4 +1,4 @@
-const cookieName = 'v2e.fun'
+const cookieName = '豆豆豆奶'
 const cookieKey = 'elfive_cookie_v2efun'
 const cookieVal = $request.headers['Cookie']
 
