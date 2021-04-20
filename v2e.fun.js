@@ -1,5 +1,5 @@
 const $ = new Env('豆豆豆奶')
-$.VAL_cookies = $.getdata('elfive_cookie_v2efun')
+$.VAL_cookies = $.getdata('doubledou_cookie')
 
 !(async () => {
   await web()

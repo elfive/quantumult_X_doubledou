@@ -1,5 +1,5 @@
 const cookieName = '豆豆豆奶'
-const cookieKey = 'elfive_cookie_v2efun'
+const cookieKey = 'doubledou_cookie'
 const cookieVal = $request.headers['Cookie']
 
 if (cookieVal) {
