@@ -10,14 +10,14 @@ $.VAL_cookies = $.getdata('doubledou_cookie')
 
 function web() {
   return new Promise((resove) => {
-    const url = { url: 'https://aaaa.gay/user/checkin', headers: {} }
+    const url = { url: 'https://dounai.lol/user/checkin', headers: {} }
     url.headers['accept'] = 'application/json, text/javascript, */*; q=0.01'
     url.headers['accept-encoding'] = 'gzip, deflate, br'
     url.headers['accept-language'] = 'zh-CN,zh;q=0.9'
     url.headers['content-length'] = '0'
     url.headers['cookie'] = $.VAL_cookies
-    url.headers['origin'] = 'https://aaaa.gay'
-    url.headers['referer'] = 'https://aaaa.gay/user/panel'
+    url.headers['origin'] = 'https://dounai.lol'
+    url.headers['referer'] = 'https://dounai.lol/user/panel'
     url.headers['sec-fetch-dest'] = 'empty'
     url.headers['sec-fetch-mode'] = 'cors'
     url.headers['sec-fetch-site'] = 'same-origin'
