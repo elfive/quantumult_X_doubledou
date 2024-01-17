@@ -1,6 +1,6 @@
 const $ = new Env('豆豆豆奶')
 $.VAL_cookies = $.getdata('doubledou_cookie')
-const host = "aaaa.gay"
+const host = "dounai.pro"
 
 !(async () => {
   await web()
